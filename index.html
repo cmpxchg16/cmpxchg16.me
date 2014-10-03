@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>cmpxchg16 | by Uri Shamay</title>
+    <meta name="description" content="cmpxchg16" />
+    <meta name="author" content="Uri Shamay" />
+    <meta name="keywords" content="cmpxchg, cmpxchg16, cmpxchg16b, C++ HTTP framework, http servers benchmark, computer geek, linux geek, linux freak, C++ high performance network library, C++ high performance IO library, C++ cross platform, Intel TSX" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="title" class="step" data-x="0" data-y="0" data-z="0" data-rotate="0" data-scale="6">
+        <span class="try"><b>cmpxchg16</b></span>
+    </div>
+
+    <div id="hello" class="step" data-x="2000" data-y="2000" data-rotate="360" data-scale="6">
+        <p>
+			Hello!<br/>
+			My name is <strong>Uri Shamay</strong> and I am a computer geek!<br/>
+			I have B.Sc at Computer Sciences. </br>
+			I live and breathe computers & technology, I started to assemble computers when I was 9 years old, while also writing my first code.<br/>
+			Since then I am always looking for new challenges.<br/>
+			I am crazy on strong hardware, I have enough computing power at my home to sort your brain very quickly (^o^)
+		</p>
+    </div>
+
+    <div id="hacker" class="step" data-x="4000" data-y="3000" data-rotate="180" data-scale="6">
+		<p>
+			I am a <b class="positioning">Linux</b> freak and hacker.</br>
+			You can imagine what I bought for my baby girl::
+			<ul>
+				<li>her first clothes</li>
+				<li>her first custom</li>
+				<li>her first doll</li>
+			</ul>
+			YeaH you're right! </br>
+			<b class="rotating">Tux the penguin!!!</b>
+		</p>
+    </div>
+
+    <div id="linux" class="step" data-x="6000" data-y="6000" data-scale="6">
+		<p>
+			I am working with Debian/Ubuntu & Redhat/CentOS/Fedora, </br>
+            and in my free time play with <a href="http://www.backtrack-linux.org/" target="_blank">BackTrack :X</a>, and hack my routers with <a href="http://www.dd-wrt.com" target="_blank">dd-wrt</a>.</br>
+			I love to code in C/C++ (on a decent OS...) and Java, </br>
+            I live at the most of time at user space and little in kernel space.</br>
+			I am also a big fan of the <a href="http://golang.org/" target="_blank">Go language</a>::</br>
+            one of the most amazing languages I ever worked with! </br>
+            As a senior of multiple startup companies, </br>
+            I can talk with you in any scripting language :P
+        </p>
+    </div>
+    
+    <div id="research" class="step" data-x="6000" data-y="0" data-scale="4">
+        <p>
+            <font size="6">
+    		    In the R&D I love the D but more the R.</br>
+                I love the research domain, my ongoing researches:
+                <ul>
+            		<li>High performance network I/O programming approach: lightweight threads (coroutines) VS native threads</li>
+                    <li>Coarse-grained locks and Transactional Synchronization inside CPU (Intel TSX in "Haswell"): better throughput in locks based algorithms</li>
+                    <li>CUDA (Compute Unified Device Architecture): how to utilize parallel algorithms with GPU parallelization</li>
+                </ul>
+            </font>
+        </p>
+    </div>
+
+    <div id="bsc" class="step" data-x="6000" data-y="-2000" data-scale="6" data-rotate="180">
+		<p>
+            My favorite topic in computer sciences are::
+            <ul>
+    			<li>high performance computing</li>
+                <li>distributed computing and BigData</li>
+                <li>high performance network servers</li>
+                <li>lock free & wait free algorithms</li>
+            </ul>
+            I love to think in multi-threaded and love to optimize everything! </br>
+            P.S. I hope you already discovered that from the domain name...
+        </p>
+    </div>
+
+    <div id="lecturer" class="step" data-x="1000" data-y="-1000" data-scale="6">
+		<p>
+			One of my biggest hobbies is to educate others, </br>
+			I was a lecturer in the academy, </br>
+			and I am always on the lookout for the next <b>Alan Turing.</b> </br>
+        </p>
+    </div>
+
+	<div id="cotendo" class="step" data-x="-5000" data-y="-5000" data-rotate="270" data-scale="6">
+		
+			I am proud to be a part of the Cotendo success story.</br>
+			I started from the begining of the company at R&D </br>
+			and held a few positions: </br>
+			<ul>
+				<li>Technical Leader & Software/System Architect</li>
+				<li>Infrastructure Team Leader</li>
+			</ul>
+			Cotendo was acquired by Akamai in 2012, </br>
+			and today it's a big part of its core technologies. </br>
+			Today I am a principal lead system software engineer @Akamai </br>
+			Building the next generation of the Internet. </br>
+    </div>
+    
+	<div id="linus" class="step" data-x="-3000" data-y="5000" data-scale="5">
+        <p>
+            <font size="6">
+                One of my favorite quotes of Linus Torvalds:</br></br>
+                "I really enjoyed doing Git, it was so much fun.
+                When I started the whole design, started doing programming in user space,
+                which I had not done for 15 years, it was like, wow, this is so easy.
+                I don't need to worry about all these things, I have infinite stack, malloc just works.
+                But in the kernel space, you have to worry about locking, you have to worry about security,
+                you have to worry about the hardware. Doing Git, that was such a relief. But it got boring."
+            </font>
+        </p>
+    </div>
+
+    <div id="contact" class="step" data-x="-2000" data-y="2000" data-rotate="0" data-scale="4">
+	</br></br></br>
+        The best book I ever read:: </br>
+        <a href="http://man7.org/tlpi/" target="_blank">The Linux Programming Interface</a></br>
+        My favorite xkcd:: </br>
+        <a href="http://xkcd.com/1185/" target="_blank">Ineffective Sorts</a></br>
+        My favorite Abstruse Goose:: </br>
+        <a href="http://abstrusegoose.com/98" target="_blank">Computer Programming 101</a></br>
+	The coolest hack ever::</br>
+	<a href="http://cm.bell-labs.com/who/ken/trust.html" target="_blank">Reflections on Trusting Trust (Ken Thompson Hack)</a></br>
+        Follow me on GitHub:: </br>
+        <a href="https://github.com/cmpxchg16" target="_blank">GitHub</a></br>
+        Follow me on Twitter:: </br>
+        <a href="https://twitter.com/cmpxchg16" target="_blank">@cmpxchg16</a></br>
+        Contact me::</br>
+        <address><a href="mailto:shamayuri@gmail.com">shamayuri@gmail.com</a></address>
+    </div>
+
+    <div id="overview" class="step" data-x="2000" data-y="3000" data-scale="15">
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40478207-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+
