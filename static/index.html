@@ -1,3 +1,49 @@
+<!doctype html>
+
+<!--
+
+    Welcome to the light side of the source, young padawan.
+
+    One step closer to learn something interesting you are...
+
+                               ____
+                            _.' :  `._
+                        .-.'`.  ;   .'`.-.
+               __      / : ___\ ;  /___ ; \      __
+             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
+             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
+                  `:-.._J '-.-'L__ `-.-' L_..-;'
+                    "-.__ ;  .-"  "-.  : __.-"
+                        L ' /.======.\ ' J
+                         "-.   "__"   .-"
+                        __.l"-:_JL_;-";.__
+                     .-j/'.;  ;""""  / .'\"-.
+                   .' /:`. "-.:     .-" .';  `.
+                .-"  / ;  "-. "-..-" .-"  :    "-.
+             .+"-.  : :      "-.__.-"      ;-._   \
+             ; \  `.; ;                    : : "+. ;
+             :  ;   ; ;                    : ;  : \:
+             ;  :   ; :                    ;:   ;  :
+            : \  ;  :  ;                  : ;  /  ::
+            ;  ; :   ; :                  ;   :   ;:
+            :  :  ;  :  ;                : :  ;  : ;
+            ;\    :   ; :                ; ;     ; ;
+            : `."-;   :  ;              :  ;    /  ;
+             ;    -:   ; :              ;  : .-"   :
+             :\     \  :  ;            : \.-"      :
+              ;`.    \  ; :            ;.'_..-=  / ;
+              :  "-.  "-:  ;          :/."      .'  :
+               \         \ :          ;/  __        :
+                \       .-`.\        /t-""  ":-+.   :
+                 `.  .-"    `l    __/ /`. :  ; ; \  ;
+                   \   .-" .-"-.-"  .' .'j \  /   ;/
+                    \ / .-"   /.     .'.' ;_:'    ;
+                     :-""-.`./-.'     /    `.___.'
+                           \ `t  ._  /
+                            "-.t-._:'
+
+-->
+
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,8 +53,11 @@
     <meta name="description" content="cmpxchg16" />
     <meta name="author" content="Uri Shamay" />
     <meta name="keywords" content="cmpxchg, cmpxchg16, cmpxchg16b, C++ HTTP framework, http servers benchmark, computer geek, linux geek, linux freak, C++ high performance network library, C++ high performance IO library, C++ cross platform, Intel TSX" />
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
     <link href="css/impress.css" rel="stylesheet" />
+
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
@@ -20,161 +69,208 @@
     <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
 </div>
 
-<div style="display:none;">bitcoin ethereum</div>
+<div id="impress" data-autoplay="10">
 
-<div id="impress">
-
-    <div id="title" class="step" data-x="-1500" data-y="-1500" data-z="0" data-rotate="0" data-scale="6">
-        <span class="try"><b>cmpxchg16</b></span>
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <h1>cmpxchg16</h1>
     </div>
 
-    <div id="hello" class="step" data-x="2000" data-y="500" data-rotate="360" data-scale="6">
-        <p>
-          Hello! <br/>
-          My name is <strong>Uri Shamay</strong>, and I am a computer geek and Mechanical-Sympathy junky. <br/>
-          I live and breathe computers and programming since the age of 9. <br/>
-          I lead the infrastructure development in the Israeli startup Cotendo. After it was acquired by <a href="https://www.akamai.com/" target="_blank">Akamai</a>,
-          I became a principal lead on next generation internet infrastructure. <br/>
-          Today I am lead developer at <a href="https://gojuno.com/" target="_blank">Juno</a> (acquired by <a href="https://gett.com/" target="_blank">Gett</a>), a new fresh approach to ride sharing - building services for millions of users. <br/>
-          I am also a co-founder of <a href="https://www.meetup.com/JavaIL/" target="_blank">Java.IL</a>, and an open source contributor. <br/>
-          My favorite hobby: drinking coffee in the morning with the smell of CPU & GPU after a long night's computation cycle. <br/>
-		</p>
+    <div class="step slide" data-x="-1000" data-y="-1500">
+      <q>
+        Hello!<br/>
+        My name is <strong>Uri Shamay</strong>,
+        and I am a computer geek and Mechanical-Sympathy junky.
+        I live and breathe computers and programming since the age of 9. <br/>
+
+      </q>
     </div>
 
-    <div id="hacker" class="step" data-x="4000" data-y="3000" data-rotate="180" data-scale="6">
-		<p>
-			I am a <b class="positioning">Linux</b> freak and hacker.</br>
-			You can imagine what I bought for my baby girl::
-			<ul>
-				<li>her first clothes</li>
-				<li>her first custom</li>
-				<li>her first doll</li>
-			</ul>
-			YeaH you're right! </br>
-			<b class="rotating">Tux the penguin!!!</b>
-		</p>
+    <div class="step slide" data-x="0" data-y="-1500">
+      <q>
+        I lead the infrastructure development in the Israeli startup <strong>Cotendo</strong>.
+        After it was acquired by <a href="https://www.akamai.com/" target="_blank"><strong><u>Akamai</u></strong></a>,
+        I became a principal lead on next generation internet infrastructure. <br/>
+      </q>
     </div>
 
-    <div id="linux" class="step" data-x="6000" data-y="6000" data-scale="6">
-		<p>
-			I am working with Debian/Ubuntu & Redhat/CentOS/Fedora, </br>
-            and in my free time play with <a href="http://www.backtrack-linux.org/" target="_blank">BackTrack :X</a>,
-            and hack my routers with <a href="http://www.dd-wrt.com" target="_blank">dd-wrt</a>,</br>
-            and doing some cool stuff with <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>.</br>
-			I love to code in C/C++ (on a decent OS...) and Java, </br>
-            I live at the most of time at user space and little in kernel space.</br>
-			I am also a big fan of the <a href="http://golang.org/" target="_blank">Go language</a>::</br>
-            one of the most amazing languages I ever worked with! </br>
-            As a senior of multiple startup companies, </br>
-            I can talk with you in any scripting language :P
-        </p>
+    <div class="step slide" data-x="1000" data-y="-1500">
+      <q>
+        Today I am lead developer at <a href="https://gojuno.com/" target="_blank"><strong><u>Juno</u></strong></a>
+        (acquired by <a href="https://gett.com/" target="_blank"><strong><u>Gett</u></strong></a>), a new fresh approach to ride sharing - building services for millions of users. <br/>
+      </q>
     </div>
 
-    <div id="research" class="step" data-x="7000" data-y="0" data-scale="4">
-        <p>
-            <font size="6">
-    		    In the R&D I love the D but more the R.</br>
-                I love the research domain, my ongoing researches:
-                <ul>
-            		    <li>High performance network I/O programming approach: lightweight threads (coroutines) VS native threads</li>
-                    <li>Coarse-grained locks and Transactional Synchronization inside CPU (Intel TSX in "Haswell"): better throughput in locks based algorithms</li>
-                    <li>CUDA (Compute Unified Device Architecture): how to utilize parallel algorithms with GPU parallelization</li>
-                </ul>
-            </font>
-        </p>
+    <div class="step slide" data-x="2000" data-y="-1500">
+      <q>
+        I am strongly believe in community contribution,
+        I am a co-founder of <a href="https://www.meetup.com/JavaIL/" target="_blank"><strong><u>Java IL</u></strong></a>,
+        also a co-founder of <a href="https://www.meetup.com/Tech-Leads-IL/" target="_blank"><strong><u>Tech Leads IL</u></strong></a>.
+        I am an open source contributor, and public speaker in tech conferences.
+      </q>
     </div>
 
-    <div id="bsc" class="step" data-x="6000" data-y="-2000" data-scale="6" data-rotate="180">
-		<p>
-            My favorite topic in computer sciences are::
-            <ul>
-    			      <li>high performance computing</li>
-                <li>distributed computing and BigData</li>
-                <li>high performance network servers</li>
-                <li>lock free & wait free algorithms</li>
-            </ul>
-            I love to think in multi-threaded and love to optimize everything! </br>
-            P.S. I hope you already discovered that from the domain name...
-        </p>
+    <div class="step slide" data-x="3000" data-y="-1500">
+      <q>
+        My favorite hobby: drinking coffee in the morning with the smell of CPU & GPU after a long night's computation cycle. <br/>
+      </q>
     </div>
 
-    <div id="lecturer" class="step" data-x="2000" data-y="-2300" data-scale="6">
-		    <p>
-			  One of my biggest hobbies is to educate others, </br>
-			  I was a computer science lecturer in the academy. </br>
-        </p>
+    <div id="step-7" class="step" data-x="6000" data-y="0" data-rotate="90" data-z="-500" data-rotate-x="-80" data-rotate-y="110" data-scale="2">
+      <p>
+        I am a <b class="positioning">Linux</b> freak and hacker,</br>
+        you can imagine what I bought for my childrens ::</br>
+        * for first clothes..</br>
+        * for first custom...</br>
+        * for first doll....</br>
+      </p>
     </div>
 
-	<div id="cotendo" class="step" data-x="-5000" data-y="-5000" data-rotate="270" data-scale="6">
-
-			I am proud to be a part of the Cotendo success story.</br>
-			I started from the begining of the company at R&D </br>
-			and held a few positions: </br>
-			<ul>
-				<li>Technical Leader && Software & System Architect</li>
-				<li>Infrastructure Team Leader</li>
-			</ul>
-			Cotendo was acquired by Akamai in 2012, </br>
-			and it's became a big part of its core technologies. </br>
-			I was a principal lead system software engineer @Akamai </br>
-			Building the next generation of the Internet.
-      This was a great journey!</br>
+    <div id="step-8" class="step" data-x="6000" data-y="1000" data-scale="2">
+      <p>
+        YeaH you're right! </br>
+        <b class="rotating">Tux the penguin!!!</b>
+      </p>
     </div>
 
-	<div id="linus" class="step" data-x="-3000" data-y="5000" data-scale="5">
-        <p>
-            <font size="6">
-                One of my favorite quotes of Linus Torvalds:</br></br>
-                "I really enjoyed doing Git, it was so much fun.
-                When I started the whole design, started doing programming in user space,
-                which I had not done for 15 years, it was like, wow, this is so easy.
-                I don't need to worry about all these things, I have infinite stack, malloc just works.
-                But in the kernel space, you have to worry about locking, you have to worry about security,
-                you have to worry about the hardware. Doing Git, that was such a relief. But it got boring."
-            </font>
-        </p>
+    <div id="step-9" class="step" data-x="6000" data-y="3500" data-rotate="90" data-scale="2">
+        I have an extensive experience in any Linux distro.
+        In my free time I am playing with <a href="http://www.backtrack-linux.org/" target="_blank">BackTrack :X</a>,
+        also I love to hack my network devices with <a href="http://www.dd-wrt.com" target="_blank">dd-wrt</a>,
+        and doing some cool stuff with <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a>.
     </div>
 
-    <div id="contact" class="step" data-x="-2000" data-y="2000" data-rotate="0" data-scale="4">
-	</br></br></br>
-        The best book I ever read:: </br>
-        <a href="http://man7.org/tlpi/" target="_blank">The Linux Programming Interface</a></br>
-        My favorite xkcd:: </br>
-        <a href="http://xkcd.com/1185/" target="_blank">Ineffective Sorts</a></br>
-        My favorite Abstruse Goose:: </br>
-        <a href="http://abstrusegoose.com/98" target="_blank">Computer Programming 101</a></br>
-	      The coolest hack ever::</br>
-	      <a href="http://cm.bell-labs.com/who/ken/trust.html" target="_blank">Reflections on Trusting Trust (Ken Thompson Hack)</a></br>
-        Follow me on GitHub:: </br>
-        <a href="https://github.com/cmpxchg16" target="_blank">GitHub</a></br>
-        Follow me on Twitter:: </br>
-        <a href="https://twitter.com/cmpxchg16" target="_blank">@cmpxchg16</a></br>
-        Contact me::</br>
-        <address><a href="mailto:shamayuri@gmail.com">shamayuri@gmail.com</a></address>
-        My PGP::</br>
-        <a href="http://pgp.mit.edu/pks/lookup?search=cmpxchg16&op=index" target="_blank">cmpxchg16 (5571D0EB)</a></br>
+    <div id="step-10" class="step" data-x="1200" data-y="3500" data-rotate="180" data-scale="2">
+        I love to code in C/C++ (on a decent OS...) and Java && Golang. </br>
+        I live at the most of time at user space and little in kernel space.</br>
     </div>
 
-    <div id="overview" class="step" data-x="2000" data-y="3000" data-scale="15">
+
+    <div id="step-11" class="step" data-x="4000" data-y="3000" data-rotate="270" data-scale="2">
+        <q>
+          As a senior of multiple startup companies,
+          I can talk with you in any scripting language ¯\_(ツ)_/¯
+        </q>
+    </div>
+
+    <div id="step-12" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+      In the R&D I love the D, but more the R.</br>
+      I love the research domain, my ongoing research:</br></br>
+
+      <strong>High performance network I/O programming approach:</strong> lightweight threads (coroutines) VS native threads.</br></br>
+      <strong>Coarse-grained locks and Transactional Synchronization inside CPU (e.g Intel TSX)</strong>: better throughput in locks based algorithms.</br></br>
+      <strong>CUDA/OpenCL:</strong> how to utilize parallel algorithms with GPU parallelization.</br></br>
+    </div>
+
+    <div id="step-13" class="step" data-x="3125" data-y="1325" data-z="-3000" data-rotate="300" data-scale="1">
+      <p>
+        My favorite topic in computer science are::</br>
+
+        * high performance computing</br>
+        * distributed computing and BigData</br>
+        * high performance network servers</br>
+        * lock free & wait free algorithms</br>
+      </p>
+    </div>
+
+    <div id="step-14" class="step" data-x="1625" data-y="1025" data-z="-3000" data-rotate="300" data-scale="1">
+      <p>
+        I love to think in multi-threaded, and love to optimize everything! </br>
+        P.S. I hope you already discovered that from the domain name...
+      </p>
+    </div>
+
+    <div id="step-15" class="step" data-x="0" data-y="1025" data-scale="1">
+      <p>
+        I love to share my ideas and experience with the world,
+        as part of it, I be a mentor for childrens in tech schools,
+        and I was a computer science lecturer in the academy.
+      </p>
+    </div>
+
+    <div id="step-16" class="step" data-x="-1000" data-y="1000" data-z="-3000" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="1">
+      <p>
+        I am proud to be a part of the Cotendo success story.
+        I started from the begining of the company at R&D
+        and held a few positions:</br></br>
+
+        * Tech Leader && Software & System Architect</br>
+        * Infrastructure Team Leader
+      </p>
+    </div>
+
+    <div id="step-17" class="step" data-x="-2000" data-y="1000" data-scale="1">
+      Cotendo was acquired by Akamai in 2012,
+      and it's became a big part of its core technologies.
+      I was a principal lead system software engineer @Akamai
+      building the next generation of the Internet.
+      This was a great journey!
+    </div>
+
+    <div id="step-18" class="step" data-x="-2000" data-y="3000" data-scale="1">
+      My funny zone: </br></br>
+      The best book I ever read:: </br>
+      <a href="http://man7.org/tlpi/" target="_blank">The Linux Programming Interface</a></br></br>
+      My favorite xkcd:: </br>
+      <a href="http://xkcd.com/1185/" target="_blank">Ineffective Sorts</a></br></br>
+      My favorite Abstruse Goose:: </br>
+      <a href="http://abstrusegoose.com/98" target="_blank">Computer Programming 101</a></br></br>
+      The coolest hack ever::</br>
+      <a href="http://cm.bell-labs.com/who/ken/trust.html" target="_blank">Reflections on Trusting Trust (Ken Thompson Hack)</a></br></br>
+      Funny stuff on theoretical vs practical in software engineering::</br>
+      <a href="https://groups.google.com/forum/message/raw?msg=comp.lang.ada/E9bNCvDQ12k/1tezW24ZxdAJ" target="_blank">The Ultimate in Garbage Collection (1995)</a></br></br>
+    </div>
+
+    <div id="step-19" class="step" data-x="-1000" data-y="3000" data-scale="1">
+      Want to know more... </br></br>
+      Follow me on GitHub:: </br>
+      <a href="https://github.com/cmpxchg16" target="_blank">GitHub</a></br></br>
+      Follow me on Twitter:: </br>
+      <a href="https://twitter.com/cmpxchg16" target="_blank">@cmpxchg16</a></br></br>
+      Contact me::</br>
+      <address><a href="mailto:shamayuri@gmail.com">shamayuri@gmail.com</a></address></br>
+      My PGP::</br>
+      <a href="http://pgp.mit.edu/pks/lookup?search=cmpxchg16&op=index" target="_blank">cmpxchg16 (5571D0EB)</a></br></br>
+    </div>
+
+    <div id="step-20" class="step" data-x="-1000" data-y="4000" data-scale="1">
+      We can't done speaking without mention the master:: <a href="https://en.wikipedia.org/wiki/Linus_Torvalds" target="_blank">Linus Torvalds</a></br></br>
+      One of my favorite quote:</br></br>
+      "I really enjoyed doing Git, it was so much fun.
+      When I started the whole design, started doing programming in user space,
+      which I had not done for 15 years, it was like, wow, this is so easy.
+      I don't need to worry about all these things, I have infinite stack, malloc just works.
+      But in the kernel space, you have to worry about locking, you have to worry about security,
+      you have to worry about the hardware. Doing Git, that was such a relief. But it got boring."
+    </br></br>
+    And one of the funniest images: <a href="https://www.google.co.il/search?q=linus+torvalds+fuck+you+literally&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjt_oeZlt3ZAhXiK8AKHTaOC3wQ_AUICigB&biw=1280&bih=640" target="_blank">...</a></br></br>
+    </div>
+
+
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
     </div>
 
 </div>
 
+<div id="impress-toolbar"></div>
+
 <div class="hint">
-    <p>Use a spacebar or arrow keys to navigate</p>
+    <p>Use a spacebar or arrow keys to navigate. <br/>
+       Press 'P' to launch speaker console.</p>
 </div>
 <script>
 if ("ontouchstart" in document.documentElement) {
-    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";
 }
 </script>
 
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
+
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-40478207-1']);
+  _gaq.push(['_setAccount', 'UA-9117370-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -184,5 +280,7 @@ if ("ontouchstart" in document.documentElement) {
   })();
 
 </script>
+
+
 </body>
 </html>
