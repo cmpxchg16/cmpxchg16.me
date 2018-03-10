@@ -558,7 +558,7 @@ a:focus {
     position: fixed;
     right: 1px;
     bottom: 1px;
-    opacity: 0.6;
+    opacity: 1.0;
 }
 .impress-enabled div#impress-toolbar > span {
     margin-right: 10px;
@@ -569,7 +569,7 @@ a:focus {
     have it show only when you move/click/touch the mouse.
 */
 body.impress-mouse-timeout div#impress-toolbar {
-    display: none;
+    display: block;
 }
 
 /*
@@ -635,7 +635,7 @@ body.impress-mouse-timeout {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 450px;
+    bottom: 50px;
 
     background: rgba(0,0,0,0.5);
     color: #EEE;
